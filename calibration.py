@@ -4,7 +4,7 @@ import cv2 as cv
 import imutils
 
 ################ FIND CHESSBOARD CORNERS - OBJECT POINTS AND IMAGE POINTS #############################
-def get_calibration(images: list[str]):
+def get_calibration(images):
     chessboardSize = (6,9)
     frameSize = (1440,1080)
 
